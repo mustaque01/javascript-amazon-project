@@ -1,36 +1,3 @@
-const product = [{
-    Image: 'images/products/athletic-cotton-socks-6-pairs.jpg',
-    Name: 'Athletic Cotton Socks - 6 Pairs',
-    rating: {
-        stars: 4.5,
-        count: 87
-    },
-    Price: 12.99,
-    Description: 'Comfortable and durable athletic socks made from high-quality cotton. Perfect for sports and everyday wear.',
-},
-{
-  Image:'images/products/intermediate-composite-basketball.jpg',
-  Name: 'Intermediate Composite Basketball',
-    rating: {
-        stars: 4.7,
-        count: 120
-    },  
-    Price: 29.99,
-    Description: 'High-performance composite basketball designed for intermediate players. Offers excellent grip and durability on the court.',  
-},
-{
-    Image: 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
-    Name: 'Adults Plain Cotton T-Shirt - 2 Pack (Teal)',
-    rating: {
-        stars: 4.3,
-        count: 65
-    },
-    Price: 19.99,
-    Description: 'Soft and breathable cotton t-shirts in a stylish teal color. Perfect for casual wear or layering.',
-
-}];
-
-
 let productsHTML = '';
 
 products.forEach(product => {
